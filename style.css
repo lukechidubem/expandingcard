@@ -96,17 +96,17 @@ div img {
   }
 
   .card {
-    width: 70px;
+    width: 90px;
     justify-content: center;
     align-items: center;
     left: 50%;
-    right: 50%;
+    /* right: 50%; */
   }
 
   .active {
     width: 350px;
-    left: 15%;
-    right: 50%;
+    left: 8%;
+    /* right: 50%; */
 
     transform: translateY(5px);
   }
