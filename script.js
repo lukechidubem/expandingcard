@@ -32,3 +32,24 @@ container.addEventListener("click", function (e) {
 //     e.classList.remove("active");
 //   });
 // }
+
+// Progress Bar
+
+// const btnUp = document.querySelector(".btn-up");
+// const btnDown = document.querySelector(".btn-down");
+// const progress = document.querySelector("progress");
+// const proPercent = document.querySelector(".pro-percent");
+
+// btnUp.addEventListener("click", function () {
+//   if (progress.value < 100) {
+//     progress.value += 20;
+//     proPercent.textContent = `${progress.value}%`;
+//   }
+// });
+
+// btnDown.addEventListener("click", function () {
+//   if (progress.value <= 100) {
+//     progress.value -= 20;
+//     proPercent.textContent = `${progress.value}%`;
+//   }
+// });

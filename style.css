@@ -104,10 +104,33 @@ div img {
   }
 
   .active {
-    width: 350px;
+    width: 100%;
+    max-width: 400px;
     left: 8%;
     /* right: 50%; */
 
     transform: translateY(5px);
   }
 }
+
+/* Progrss Bar */
+
+/* .progress-container {
+  position: absolute;
+
+  display: flex;
+}
+.pro-percent {
+  margin-left: 5px;
+}
+.btn-container {
+  display: flex;
+  position: absolute;
+  top: 25rem;
+}
+
+.btn-container .btn {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+} */
