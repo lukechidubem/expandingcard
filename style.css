@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,500;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,900&family=Poppins:ital,wght@0,300;0,700;1,100;1,400;1,700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,500;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,900&family=Poppins:ital,wght@0,300;0,700;1,100;1,400;1,700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -7,9 +7,9 @@
 }
 
 body {
-  background-color: rgb(127, 255, 165);
+  background-color: rgb(73, 82, 76);
   height: 100vh;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,32 +22,15 @@ body {
   width: 90vw;
 }
 
-/* .card {
-  margin: 0 20px;
- 
-}
-
-div img {
-  height: 80vh;
-  width: 100px;
-  border-radius: 30px;
-  cursor: pointer;
-}
-
-.active {
-  width: 350px;
-  transition: 1.5s ease-in;
-  transform: translateY(20px);
-}*/
-
 .caption {
   position: absolute;
   left: 42vw;
   top: 20px;
+
   color: white;
   font-size: 1.5rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .card {
@@ -70,7 +53,7 @@ div img {
   bottom: 1rem;
   margin: 0;
   opacity: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card.active h3 {
@@ -99,15 +82,12 @@ div img {
     width: 90px;
     justify-content: center;
     align-items: center;
-    left: 50%;
-    /* right: 50%; */
+    margin: 20px auto;
   }
 
   .active {
     width: 100%;
     max-width: 400px;
-    left: 1%;
-    /* right: 50%; */
 
     transform: translateY(5px);
   }
